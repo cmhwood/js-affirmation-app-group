@@ -23,8 +23,8 @@ function iceButton(event) {
 }
 
 function createAffirmation(event) {
-  // console.log('Affirmation');
   event.preventDefault();
+  // console.log('Affirmation');
   const affirmation = document.getElementById('affirmation-input');
   const author = document.getElementById('author-input');
   // console.log(`${affirmation.value}, ${author.value}`);
